@@ -1,0 +1,22 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pressez-moi</title>
+    </head>
+    <body>
+        <button>Pressez-moi</button>
+    </body>
+    <script type="text/javascript">
+     var myButton =document.querySelector('button');
+    
+    myButton.addEventListener('click', gestion_de_evt);
+   
+    function gestion_de_evt() {
+        var name = prompt ('Quel est votre nom ?');
+        alert('Hello ' + name + ', sympa de vous voir !');
+    }
+    </script>
+</html>
+
+
+//------------------------------------------------------------------------ Résultat -------------------------------------------------------------------------
